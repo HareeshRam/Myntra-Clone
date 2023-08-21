@@ -1,0 +1,224 @@
+ [
+      {
+        "id": 1,
+        "title": "Siyahi",
+        "description": "Geometric Print With Mandari",
+        "price": 280,
+        "image":"https://assets.ajio.com/medias/sys_master/root/20230118/0mbm/63c7dbfdf997dd708e114842/siyahi-off-white-tunics-geometric-print-tunic-with-mandarin-collar.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Shoes",
+        "description": "The modern mens casual shoe",
+        "price": 699,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20220505/t0tt/6273f152aeb26921af57574a/u.s.-polo-assn.-black-slip-ons-round-toe-penny-loafers.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Mens Shoe",
+        "description": "The real men look fashionised shoe",
+        "price": 899,
+        "image":"https://assets.ajio.com/medias/sys_master/root/20230726/SsUV/64c13427a9b42d15c97074dc/-473Wx593H-469190539-grey-MODEL.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Mens Shirts",
+        "description": "The modern stylish checks",
+        "price": 999,
+        "category": "Shoes",
+        "image":"https://assets.ajio.com/medias/sys_master/root/20220527/kNDF/628fcf53f997dd03e2340953/ketch-navy-blue-classic-checked-slim-fit-shirt-with-patch-pocket.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Mens Wear",
+        "description": "The Fashion of the mens Formal.",
+        "price": 799,
+        "category": "Shoes",
+        "image":"https://assets.ajio.com/medias/sys_master/root/20220817/2ciP/62fd1b56aeb2691761809553/the-indian-garage-co-peach-classic-spread-collar-shirt-with-patch-pocket.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Girls Trenz",
+        "description": "The new Fashion for the Womens.",
+        "price": 1199,
+        "category": "Shoes",
+        "image":"https://assets.ajio.com/medias/sys_master/root/20220622/hfiD/62b2190bf997dd03e2936ef8/aarke-ritu-kumar-green-a-line-paisley-print-v-neck-a-line-dress.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Curtains",
+        "description": "New Window looks ",
+        "price": 499,
+        "category": "Shoes",
+        "image":"https://assets.ajio.com/medias/sys_master/root/20230628/xjEh/649b5f40eebac147fc11d160/dekor-world-yellow-window-curtains-pack-of-2-window-curtains-with-tassels.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Teddy",
+        "description": "The baby tedz for funn",
+        "price": 599,
+        "category": "Shoes",
+       "image":"https://assets.ajio.com/medias/sys_master/root/20220526/NgVz/628fbce1aeb26921afe306e3/fuzzbuzz-prem-teddy-bear.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Tree Pots",
+        "description": "The greenary for the nature",
+        "price": 298,
+        "category": "Shoes",
+       "image":"https://assets.ajio.com/medias/sys_master/root/20230424/L0CC/64467fac907deb497afbfa03/home-centre-white-artificial-plants-%26-flowers-gardenia-floor-potted-plant.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Marc Loire",
+        "description": "Women Pointy-Toe Heeled Sandals",
+        "price": 898,
+        "category": "Shoes",
+        "image":"https://assets.ajio.com/medias/sys_master/root/20220620/Djxm/62b02cd6aeb26921af39c1f9/marc-loire-black-chunky-heels-women-pointy-toe-heeled-sandals-with-buckle-closure.jpg"
+      },
+      {
+        "id": 11,
+        "title": "Aarke kumar",
+        "description": "Floral print A-line Dress",
+        "price": 1999,
+        "category": "Shoes",
+        "image":"https://assets.ajio.com/medias/sys_master/root/20230513/m550/645e8cda42f9e729d77d6800/aarke-ritu-kumar-green-a-line-floral-print-a-line-dress.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Bag Pepper Curtain",
+        "description": "New looks with Fresh air",
+        "price": 599,
+        "category": "Shoes",
+        "image":"https://assets.ajio.com/medias/sys_master/root/20230628/zrzC/649b3a03a9b42d15c9f77db0/fabindia-ochre-window-curtains-cotton-semi-sheer-print-window-curtains.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Back case",
+        "description": "Embellished Jute Mobile Pouch",
+        "price": 199,
+        "image": "https://assets.myntassets.com/f_webp,h_560,q_90,w_420/v1/assets/images/21381874/2023/1/2/7ee67351-b32d-4ad9-bae4-fc052e9ab6e51672639465441MobileAccessories1.jpg"
+      },
+
+      {
+        "id": 14,
+        "title": "Fusion",
+        "description": "Printed A-Line Tunic With Tie-Up",
+        "price":270,
+        "image":"https://assets.ajio.com/medias/sys_master/root/20210324/HgJ6/605a346cf997dd7b645347f4/fusion-red-a-line-printed-a-line-tunic-with-tie-up-%26-mask.jpg"
+      },
+      {
+        "id": 15,
+        "title": "Cardin",
+        "description": "Open-Toe Sculpture Heeled Sandals",
+        "price": 744,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20221205/Rrhj/638e087ef997ddfdbdba538b/pierre-cardin-grey-sculpture-open-toe-scultpture-heeled-sandals.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Steller Home",
+        "description": "Set of 3 Cotton Towels",
+        "price": 350,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20221216/hMvX/639c9786f997ddfdbdda8059/stellar-home-blue-%26-green-kitchen-towels-set-of-3-cotton-towels.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Kuber Industries",
+        "description": "Set of 2 Floral Print 3-Seater Sofa Cover",
+        "price": 450,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230710/6lrK/64ac36c7a9b42d15c949c8d2/kuber-industries-brown-sofa-fabric-set-of-2-floral-print-3-seater-sofa-fabric.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Status Quo",
+        "description": "Colourblock Hoodie With Inser Pocket",
+        "price": 1000,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230524/hO0q/646e429dd55b7d0c63d6aa02/status-quo-black-hoodies-colourblock-hoodie-with-insert-pockets.jpg"
+      },
+      {
+        "id": 19,
+        "title": "Buda Jeans Co",
+        "description": "Hoodie With Kangaroo Pocket",
+        "price": 1150,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20220909/keCJ/631a6011f997dd1f8df01ced/buda-jeans-co-blue-hoodies-hoodie-with-kangaroo-pocket.jpg"
+      },
+      {
+        "id": 20,
+        "title": "Kuber Industries",
+        "description": "Set of 6 Cotton 5-seater sofa Fa.....",
+        "price":343,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230710/NHtC/64ac38e4eebac147fc61d873/kuber-industries-cream-sofa-fabric-set-of-6-cotton-5-seater-sofa-slip-fabric.jpg"
+      },
+      {
+        "id": 21,
+        "title": "Crocs",
+        "description": "Unisex Bayband Clog",
+        "price":2472,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230614/Z2np/6489e8bad55b7d0c636b55bb/crocs-grey-clogs-%26-mules-unisex-bayaband-clog.jpg"
+      },
+      {
+        "id": 22,
+        "title": "Fig",
+        "description": "NPNW BB01 Non-Padded",
+        "price": 127,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20220415/GYNM/62598976aeb26921af23e165/fig-grey-sports-npnw-bb01-non-padded-non-wired-sports-bra.jpg"
+      },
+      {
+        "id": 23,
+        "title": "Lorenz",
+        "description": "MK-4041R Round shape",
+        "price": 449,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230717/7XmV/64b526d9a9b42d15c9591bcc/lorenz-black-mk-4041r-round-shape-analogue-watch.jpg"
+      },
+      {
+        "id": 24,
+        "title": "Evestacy",
+        "description": "Non-Wired Cotton Camisoles",
+        "price": 159,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230502/aoLt/645132b442f9e729d762505f/evestacy-white-camisoles-%26-tanks-non-wired-cotton-camisoles.jpg"
+      },
+      {
+        "id": 25,
+        "title": "Evestacy",
+        "description": "Textured Camisole",
+        "price": 149,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230602/f8yD/647906bad55b7d0c6331d1d5/leading-lady-grey-camisoles-%26-tanks-textured-camisole.jpg"
+      },
+      {
+        "id": 26,
+        "title": "Dennis Lingo",
+        "description": "Men White slim fit casual shirt",
+        "price": 549,
+        "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2021/4/15/6a6cbe54-7f55-457b-8adc-5dcb11b909eb1618486559162-4.jpg"
+      },
+      {
+        "id": 27,
+        "title": "Jyoas Lingo",
+        "description": "Men White slim fit casual shirt",
+        "price": 669,
+        "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/2414313/2022/4/18/652e4b75-59a6-4ae2-93de-e713f481a66b1650284958120HERENOWMenRedBlackCheckedPureCottonCasualShirt3.jpg"
+      },
+      {
+        "id": 28,
+        "title": "Roadster",
+        "description": "Men Navy Blue Skinny Fit Mid-Rise Clean Look",
+        "price":674,
+        "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/11274426/2020/9/11/cefc07f5-3546-4133-a04c-095515df80661599803844157-Roadster-Men-Navy-Blue-Skinny-Fit-Mid-Rise-Clean-Look-Stretc-1.jpg"
+      },
+      {
+        "id": 29,
+        "title": "WM",
+        "description": "Men Black Analouge Watch DDWM",
+        "price":1074,
+        "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/11523694/2020/2/14/d43cd3c7-3d76-4771-aad1-060237c34c6e1581675920946-DDWM-047febs-2071581675920404-1.jpg"
+      },
+      {
+        "id": 30,
+        "title": "Wildstone",
+        "description": "Wildstone Men Pack of 3 Deodrants",
+        "price":516,
+        "image":"https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/14867970/2021/7/19/e539524e-9b38-4deb-a8d5-c3a09ef35b721626699034059Deodorant1.jpg"
+      }
+    ]
+  
+  

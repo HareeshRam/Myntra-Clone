@@ -1,0 +1,868 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color:white;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.5px solid rgb(242, 235, 235);
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#article1{
+    height: 100%;
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: center;
+}
+#myntraLogo{
+  height: 100%;
+  width:auto;
+  /* background-color:burlywood; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  /* position:sticky; */
+}
+.logo1{
+    height: 50px;
+    width: 65px;
+}
+
+#NavList{
+    height: 100%;
+    width:565px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#InnerNav{
+    height: 100%;
+     width: 90%;
+     /* background-color: beige; */
+     display: flex;
+     overflow: hidden;
+
+}
+.A{
+    height: 100%;
+    width: 14%;
+    /* background-color: #282C3F; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#MenBox{
+    height:75vh;
+    width:85%;
+    padding: 40px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index:2;
+    top: 80px;
+    left:80px;
+    display: none;
+}
+#MenBoxInner{
+    height: 90%;
+    width:100%;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Men1{
+    height: 100%;
+    width: 20%;
+}
+#Mainhead{
+margin-top: 16px;
+color: rgb(247, 88, 30);
+font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+-webkit-font-smoothing: antialiased;
+font-size:16px;
+font-weight: 600;
+letter-spacing: .3px;
+}
+ul{
+    margin-top: 13px;
+    color:rgb(103, 94, 94);
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size:14px;
+    font-weight:400;
+    letter-spacing: .3px;
+    list-style-type: none;
+}
+hr{
+    margin-top: 20px;
+    width: 200px;
+}
+.A:hover{
+    transition:1s;
+    cursor: pointer; 
+    border-bottom:2px solid #ff3f6C  ;
+}
+.A:hover #MenBox{
+    display: block;
+}
+.B{
+    height: 100%;
+    width: 16%;
+    /* background-color:red; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#WomenBox{
+    height:75vh;
+    width:85%;
+    padding: 50px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index:3;
+    top: 80px;
+    left:130px;
+    display: none;
+}
+#Women1{
+    height: 100%;
+    width: 20%;
+    /* background-color: #a2a2a7; */
+}
+#WomenBoxInner{
+    height: 95%;
+    width:100%;
+    /* background-color:gray; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.B:hover{
+    transition:1s;
+    cursor: pointer; 
+    border-bottom:2px solid #1e5dfe  ;
+}
+.B:hover #WomenBox{
+    transition: 2s;
+    display: block;
+}
+.C{
+    height: 100%;
+    width: 14%;
+    /* background-color:yellow;  */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#KidsBox{
+    height:75vh;
+    width:80%;
+    padding:30px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index:3;
+    top: 80px;
+    left:130px;
+    display: none;
+}
+#KidsBoxInner{
+    height: 95%;
+    width:100%;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Kids1{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+}
+.C:hover{
+    transition:1s;
+    cursor: pointer; 
+    border-bottom:2px solid #282C3F  ;
+}
+.C:hover #KidsBox{
+    display: block;
+}
+.D{
+    height: 100%;
+    width:25%;
+    /* background-color:green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#LivingBox{
+    height:73vh;
+    width:80%;
+    padding:30px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index:3;
+    top: 80px;
+    left:150px;
+    display: none;
+}
+#LivingBoxInner{
+    height: 95%;
+    width:100%;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Living1{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+}
+.D:hover{
+    transition:1s;
+    cursor: pointer; 
+    border-bottom:2px solid rgb(183, 183, 7)  ;
+}
+.D:hover #LivingBox{
+    display: block;
+}
+.E{
+    height: 100%;
+    width: 16%;
+    /* background-color:#ff3f6C;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#BeautyBox{
+    height:83vh;
+    width:80%;
+    padding:30px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index:3;
+    top: 80px;
+    left:150px;
+    display: none;
+}
+#BeautyBoxInner{
+    height: 98%;
+    width:100%;
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Beauty1{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+}
+#Mainhead2{
+    margin-top: 16px;
+    color:rgb(108, 230, 235);
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size:16px;
+    font-weight: 600;
+    letter-spacing: .3px;
+    }
+
+.E:hover{
+    transition:1s;
+    cursor: pointer; 
+    border-bottom:2px solid rgb(108, 230, 235)  ;
+}
+.E:hover #BeautyBox{
+    display: block;
+}
+.F{
+    height: 100%;
+    width: 16%;
+    /* background-color:aqua;   */
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#StudioBox{
+    height:73vh;
+    width:40%;
+    padding:30px;
+    background-color:white;
+    display:grid;
+    position: absolute;
+    z-index:3;
+    top: 80px;
+    left:370px;
+    display: none;
+}
+#StudioBoxInner{
+    height: 95%;
+    width:100%;
+    background-color:gray; 
+     background-image: url(/assets/myntralogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button
+.F:hover{
+    transition:1s;
+    cursor: pointer; 
+    border-bottom:1px solid #ff3f6C  ;
+}
+.F:hover#StudioBox{
+    display: block;
+}
+
+.p1{
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13.5px;
+    color: #282C3F;
+    font-weight: 700;
+    letter-spacing: .3px;
+    gap:28px;
+    cursor: pointer;
+    position: fixed;
+
+}
+sup{
+    color: #ff3f6C;
+    font-weight: 800;
+    font-size:9px;
+    font-stretch: normal;
+    font-style: normal;
+}
+#searchbar{
+    height: 100%;
+    width: 540px;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+}
+#searchborder{
+    height: 38px;
+    width:95%;
+    border:1px solid #f5f5f6;
+    background:#f5f5f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+   
+}
+#searchInput{
+    height: 37px;
+    border: none;
+    outline: none;
+    width: 90%;
+    margin-left: 20px;
+    gap: 10px;
+    background-color:transparent;
+}
+#searchsvg2{
+    width: 15px;
+    margin-left:10px;
+   fill:  #a2a2a7;
+   cursor: pointer;
+   
+}
+::placeholder{
+    padding: 13px;
+    font-size: 15px;
+}
+#Navicons{
+    height: 100%;
+    width:240px;
+    /* background-color: #ff3f6C; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#NavInner{
+    height: 100%;
+    width:200px;
+    /* background-color:cadetblue;  */
+    display: flex;
+}
+#A{
+    height: 100%;
+    width: 33.3%;
+     /* background-color:yellow; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#svg3{
+    width:100%;
+    height:17px;
+    fill: #282C3F;
+    cursor: pointer;
+}
+
+#svg4{
+    width:100%;
+    height:17px;
+    fill: #282C3F;
+    cursor: pointer;
+}
+p{
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+    color: #282C3F;
+    font-weight: 700;
+}
+#icon-image{
+height:20px;
+background-color: white;
+background: transparent;
+}
+.adds{
+    padding-top: 80px;
+   /* display: grid;
+   place-items: center; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* position:sticky; */
+   overflow-x: hidden;
+margin: 15px;
+}
+#img4{
+    height:100px;
+    width: 100%;
+}
+.page2{
+  padding-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  place-items: center;
+  margin-top: 20px;
+}
+.prod{
+    border: none;
+    height: 380px;
+    width: 220px;
+    /* padding: 30px; */
+    /* display: flex;
+    justify-content: center; */
+    display: grid;
+    place-items: center;
+    background-color:rgb(245,245,246) ;
+    padding:5px;
+}
+.prod:hover{
+    box-shadow: 0 0 5px;
+}
+.imageProd{
+    border:none;
+    height: 250px;
+    width: 80%;
+    background-color: rgb(245,245,246);
+}
+.prodImg{
+    height:100%;
+    width: 100%;
+}
+.priceDetails{
+    text-align: start;
+    border:none;
+    width: 100%;
+    background-color: white;
+}
+.wishlist{
+height:40px;
+width: 100%;
+border: 0.2px solid rgb(245,245,246);
+background-color: white;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+margin-top:5px;
+margin-bottom: 5px;
+}
+.wishlist:hover{
+    box-shadow: 0 0 5px ;
+
+}
+.wishname{
+    margin-right:50px;
+}
+.bottomNav{
+    display: none;
+}
+#B{
+ 
+     display: none;
+}
+.discountImages{
+height:250px;
+width: 100%;
+background-color:white;
+display: flex;
+align-items: center;
+overflow-x: scroll;
+gap: 20px;
+padding: 10px;
+cursor: pointer;
+}
+.img1{
+    height: 100%;
+    width: 250px;
+}
+.img1:hover{
+    box-sizing: 0 0 10px red;
+    height: 90%;
+    transform:rotate(-15deg);
+    border-radius: 20px;
+}
+.discountImages::-webkit-scrollbar {
+    display: none;
+}
+.aniImages{
+    height: 200px;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top:80px;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    gap: 10px;
+    padding:5px;
+    cursor: pointer;
+}
+#img3{
+    height:90%;
+    width: auto;
+}
+
+.aniImages::-webkit-scrollbar {
+    display: none;
+}
+.des{
+    font-weight: 300;
+}
+/* -------------------------------------Wishlist Component----------------------------- */
+#wishlistComponent{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+
+
+@media screen and (max-width:1200px) {
+    #NavList{
+        height: 100%;
+        width:565px;
+        /* background-color: blanchedalmond; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #InnerNav{
+        height: 100%;
+         width:100%;
+         /* background-color: beige; */
+         display: flex;
+        justify-content: space-evenly; 
+        padding: 0.5rem;   
+    }
+    #searchbar{
+        height: 100%;
+        width:auto; 
+    }
+    #searchborder{
+        height: 38px;
+        width:auto;
+    }
+   
+    .page2{
+        padding-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+        row-gap: 20px;
+        place-items: center;
+        margin-top: 20px;
+      }   
+   
+}
+@media screen and (max-width:1000px) {
+    #NavList{
+        display: none;
+    }
+    #myntraLogo{
+        height: 100%;
+        width: auto;
+        /* background-color: red; */
+        padding:0.5rem;
+      }
+      .logo1{
+          /* height: 50px;
+          width: 65px; */
+          object-fit:contain;
+      }
+      #nav{
+        height: 80px;
+        width: 100%;
+    }
+    #article1{
+        height: 100%;
+        width: 100%;
+        /* background-color: azure; */
+        display: flex;
+        justify-content:space-evenly;
+    }
+    #Navicons{
+        height: 100%;
+        width:320px;
+        /* background-color: #ff3f6C; */
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #NavInner{
+        height: 100%;
+        width:100%;
+        /* background-color:cadetblue;  */
+        display: flex;
+        justify-content:end;
+
+    }
+    #A{
+        height: 100%;
+        width: auto;
+        /* background-color: red; */
+        padding: 1.8rem;
+    }
+    #svg3{
+        width:100%;
+        height:18px;
+        fill: #282C3F;
+        cursor: pointer;
+    }
+    p{
+        font-size: 13px;
+    }
+
+    #searchbar{
+        /* background-color: red; */
+        height: 100%;
+        width:400px; 
+        display: flex;
+        justify-content: center;
+        padding:0.5rem;
+        align-items: center;
+    }
+    #searchborder{
+        height: 38px;
+        width:100%;
+    }
+   
+    .page2{
+        padding-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        row-gap: 20px;
+        place-items: center;
+        margin-top: 20px;
+      }
+      #B{
+        height: 100%;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+   }
+}
+
+
+@media screen and (max-width:600px) {
+    #A{
+        padding: 1rem;
+        /* background-color: #1e5dfe; */
+    }
+    #searchbar{
+        display: block;
+    } 
+    #searchbar{
+        background-color:white;
+        /* background-color: red; */
+        height:60%;
+        width:100%; 
+        padding:0.5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 1;
+        top: 80px;
+    }
+    #searchborder{
+        height:100%;
+        width:100%;
+        border-radius: 50px;
+        padding: 10px;
+        /* background-color: yellow; */
+        position: sticky;
+        box-shadow: 0 0 5px black;
+    }
+    #searchInput{
+        height: 37px;
+        border: none;
+        outline: none;
+        width: 90%;
+        margin-left: 20px;
+        gap: 10px;
+        background-color:transparent;
+        font-size:18px;
+    }
+    #searchsvg2{
+        width: 20px;       
+    }
+    ::placeholder{
+        padding: 13px;
+        font-size: 17px;
+    }
+    .page2{
+    margin-top:50px;
+    margin-bottom: 70px;
+    }
+    .bottomNav{
+        height: 70px;
+        width: 100%;
+        background-color:white;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .page2{
+        padding-top: 80px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        row-gap: 20px;
+        place-items: center;
+        width: auto;
+        height: auto;
+        margin-top:0px;
+        column-gap:0px;
+        
+      }
+      .prod{
+        border: none;
+        height: 350px;
+        width: 200px;
+        width: auto;
+        border-radius: 10px;
+        padding: 5px;
+        margin:10px;
+    }
+    .imageProd{
+        border:none;
+        height: 210px;
+        width: 95%;
+        background-color: rgb(245,245,246);
+    }
+    .prodImg{
+        height:100%;
+        width: 100%;
+    }
+    .priceDetails{
+        text-align: start;
+        border:none;
+        width: 100%;
+        background-color: white;
+        padding: 5px;
+    }
+    .wishlist{
+    height:40px;
+    width: 100%;
+    border: 0.2px solid rgb(245,245,246);
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    }
+    .wishlist:hover{
+        box-shadow: 0 0 5px ;
+    
+    }
+    .wishname{
+        margin-right:50px;
+    }
+    #B{
+         height: 100%;
+         width: 20%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         cursor: pointer;
+    }
+    .adds{
+        padding-top:0px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       overflow-x:hidden;
+       /* background-color: red; */
+    }
+    #img4{
+        height:80px;
+        width: 100%;
+    }
+    .aniImages{
+        height:150px;
+        width: 100%;
+        /* background-color: aqua; */
+        margin-top:130px;
+        display: flex;
+        align-items: center; 
+        overflow-x: scroll;
+    }
+    #img3{
+        height:90%;
+        width: auto;
+    }
+}
+
